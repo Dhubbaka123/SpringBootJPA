@@ -18,7 +18,7 @@ public class SecurityConfig {
 		
 		InMemoryUserDetailsManager inMemoryUserDetails = new InMemoryUserDetailsManager(user1,user2,user3);
 		
-		System.out.println("update in testbranch1 branch");
+		System.out.println("update in testbranch1 branch at 4:07PM");
 		
 		return inMemoryUserDetails;
 		
