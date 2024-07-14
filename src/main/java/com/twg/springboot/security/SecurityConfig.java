@@ -17,7 +17,10 @@ public class SecurityConfig {
 		UserDetails user3 = User.builder().username("twguser3").password("{noop}twg3").roles("EMPLOYEE").build();
 		UserDetails user4 = User.builder().username("twguser4").password("{noop}twg4").roles("TEAMLEAD").build();
 		
-		InMemoryUserDetailsManager inMemoryUserDetails = new InMemoryUserDetailsManager(user1,user2,user3);
+		InMemoryUserDetailsManager inMemoryUserDetails = new InMemoryUserDetailsManager(user1,user2,user3,user4);
+		
+		
+		System.out.println("pushing to github for practice");
 		return inMemoryUserDetails;
 		
 	}

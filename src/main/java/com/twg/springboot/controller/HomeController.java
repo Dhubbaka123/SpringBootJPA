@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.twg.springboot.entity.Customers;
 import com.twg.springboot.service.CustomersService;
 
-import jakarta.persistence.Id;
-
 @RestController
 public class HomeController {
 
