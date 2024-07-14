@@ -18,7 +18,7 @@ public class SecurityConfig {
 		
 		InMemoryUserDetailsManager inMemoryUserDetails = new InMemoryUserDetailsManager(user1,user2,user3);
 		
-		System.out.println("update in jpa_features branch");
+		System.out.println("update in jpa_features branch at 3:53");
 		
 		return inMemoryUserDetails;
 		
