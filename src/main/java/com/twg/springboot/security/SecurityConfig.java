@@ -20,7 +20,7 @@ public class SecurityConfig {
 		InMemoryUserDetailsManager inMemoryUserDetails = new InMemoryUserDetailsManager(user1,user2,user3,user4);
 		
 		
-		System.out.println("pushing next change to test1 at 12:05");
+		System.out.println("pushing next change at 12:15");
 
 		return inMemoryUserDetails;
 		
