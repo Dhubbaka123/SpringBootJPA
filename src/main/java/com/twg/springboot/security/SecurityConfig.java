@@ -20,7 +20,7 @@ public class SecurityConfig {
 		InMemoryUserDetailsManager inMemoryUserDetails = new InMemoryUserDetailsManager(user1,user2,user3,user4);
 		
 		
-		System.out.println("update in Github console and work on Fetch and Pull operations");
+		System.out.println("making updates from console");
 
 		return inMemoryUserDetails;
 		
