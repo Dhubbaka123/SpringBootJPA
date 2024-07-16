@@ -18,6 +18,9 @@ public class SecurityConfig {
 		UserDetails user4 = User.builder().username("twguser4").password("{noop}twg4").roles("TEAMLEAD").build();
 		
 		InMemoryUserDetailsManager inMemoryUserDetails = new InMemoryUserDetailsManager(user1,user2,user3);
+		
+		System.out.println("update in jpa_features branch at 3:53");
+		
 		return inMemoryUserDetails;
 		
 	}
