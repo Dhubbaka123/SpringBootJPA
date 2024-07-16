@@ -20,7 +20,7 @@ public class SecurityConfig {
 		InMemoryUserDetailsManager inMemoryUserDetails = new InMemoryUserDetailsManager(user1,user2,user3,user4);
 		
 		
-		System.out.println("making updates from console");
+		System.out.println("Now Creating first new branch with name test1");
 
 		return inMemoryUserDetails;
 		
